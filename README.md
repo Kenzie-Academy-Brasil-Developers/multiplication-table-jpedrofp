@@ -1,3 +1,36 @@
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabela de Multiplicação</title>
+    </head>
+
+    <body>
+        <h1>Tabela de Multiplicação</h1>
+        <script>
+            function criarTabela() {
+                let x = [];
+                for (let i = 0; i <= n; i++){
+                    x[i] = [];
+
+                    for (let j = 0; j <= n; j++) {
+                        x[i][j] = i * j;
+                    }
+                }
+            }
+
+        </script>
+    </body>
+</html>
+```
+
+
+
+
+
+
+<!-- 
 # Entrega: Tabela de Multiplicação 
 
 ## Visão Geral
@@ -17,33 +50,9 @@ Imagine que você está construindo uma tabela para que professores do ensino fu
 
 Você pode usar o seguinte documento HTML como ponto de partida:
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Multiplication Table</title>
-    </head>
-
-    <body>
-        <h1>Multiplication Table</h1>
-        <script>
-
-            function nomeDaSuaFuncao(n) { // Substitua "nomeDaSuaFuncao" por um nome mais apropriado
-                // escreve a coluna inicial
-                let x = [];
-                for (let i = 0; i <= n; i++) {
-                    x[i] = [];
-                }
-                console.table(x)
-                // TODO: escrever dois loops aninhados para desenhar o array bidimencional e monstar o restante da tabela no console.
-            }
-        </script>
-    </body>
-</html>
-```
 
 __Se você quiser entender um pouco mais sobre o [console.table()](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)__ - [Link para documentação](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)
 
 ## Envio
 
-Faça o push do código para o seu repositório GitHub e implemente-o GitHub pages. No Canvas, **por favor, envie sua url do GitHub Pages (ex: https://nomedeusuario.github.io/katas2)**, deixe o projeto público e após ser feito a correção, seu projeto deverá ficar privado.
+Faça o push do código para o seu repositório GitHub e implemente-o GitHub pages. No Canvas, **por favor, envie sua url do GitHub Pages (ex: https://nomedeusuario.github.io/katas2)**, deixe o projeto público e após ser feito a correção, seu projeto deverá ficar privado. -->
